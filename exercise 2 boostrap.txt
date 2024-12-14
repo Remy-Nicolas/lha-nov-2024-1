@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--je commernce par cree un titre pour mon projet exercise 2-->
+  <title>Exercise 2</title>
+  <!--ensuite je cree un lien vers le fichier css de boostrap pour utiliser les classes et style de boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+   rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+   crossorigin="anonymous">
+</head>
+<h4 align="center">excersise 2</h4><br><br>
+
+<!--jutilise la balise h2 pour donner un premier titre a mon schema-->
+<h2>Schema 1</h2><br>
+
+<body>
+  <!--et je cree un 2eme lien vers le fichier js de boostrap pour utiliser les classes et style de boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+     crossorigin="anonymous"></script>
+  <!-- Section 1 : 1 tableau -->
+   <!--je cree une 1er section en utilisant la balise div et la class container-->
+  <div class="container">
+    <!--cette section utilise un tableau qui est cree en utilisant la balise table et la class table primary-->
+    <table class="table table-primary"> <style>.table-primary { border : 2px solid blue;}</style>
+      <tr>
+        <td style="color: #0099ff">Ceci est une seul colonne</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Section 2 : 2 tableaux sur la même ligne -->
+   <!--je cree une 2eme section en utilisant la balise div et la class container et row pour definir la largeur de colonne-->
+  <div class="container">
+    <div class="row">
+      <!--col-md-6 definissent 2 colonne de largeur egal-->
+      <div class="col-md-6">
+        <!--cette section utilise un tableau qui est cree en utilisant la balise table et la class table secondary-->
+        <table class="table table-secondary"> <style>.table-secondary {border: 2px solid #a80dc7}</style>
+          <tr>
+            <td style="background-color: rgb(226, 206, 245); color: purple;">ceci est la 1er colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-secondary">
+          <tr>
+            <td style="background-color: rgb(232, 210, 253); color: purple;">ceci est la 2eme colonne</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 3 : 4 tableaux sur la même ligne -->
+   <!--je cree une 3eme section en utilisant la balise div et la class container et row pour definir la ranger de colonne-->
+  <div class="container">
+    <div class="row">
+    <!--col-md-3 definissent 4 colonne de largeur egal-->
+      <div class="col-md-3">
+    <!--cette section utilise un tableau qui est cree en utilisant la balise table et la class table danger-->
+        <table class="table table-danger"> <style>.table-danger {border: 2px solid #FF69B4;}</style>
+          <tr>
+            <td style="color: #FF33CC">ceci est la premiere colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-3">
+        <table class="table table-danger">
+          <tr>
+            <td style="color: #FF33CC">ceci est la deuxieme colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-3">
+        <table class="table table-danger">
+          <tr>
+            <td style="color: #FF33CC">ceci est la troisiene colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-3">
+        <table class="table table-danger">
+          <tr>
+            <td style="color: #FF33CC">ceci est la quatrieme colonne</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+   <!--Schema 2 on essai -->
+   <!--jutilise la balise h2 pour donner un titre a mon 2eme schema-->
+
+  <h2>Schema 2</h2><br>
+
+<!-- Section 1 : 1 tableau -->
+ <!--je cree une 1er section en utilisant la balise div et la class container-->
+<div class="container">
+  <!--cette section utilise un tableau qui est cree en utilisant la balise table et la class table primary-->
+    <table class="table table-primary">
+      <tr>
+        <td style="color: #0099ff">est une seule colonne</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Section 2 : 2 tableaux sur la même ligne -->
+   <!--je cree une 2eme section en utilisant la balise div et la class container et row pour definir la largeur de colonne-->
+  <div class="container">
+    <div class="row">
+      <!--col-md-6 definissent 2 colonne de largeur egal-->
+      <div class="col-md-6">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">ceci est la premiere colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">ceci est la deuxieme colonne3</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 3 : 4 tableaux sur la même ligne -->
+   <!--je cree une 3eme section en utilisant la balise div et la class container et row pour definir la ranger de colonne-->
+  <div class="container">
+    <div class="row">
+      <!--col-md-3 definissent 4 colonne de largeur egal-->
+      <div class="col-md-3">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">ceci est la premiere colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-3">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">ceci est la deuxieme colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-3">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">ceci est la troisiene colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-3">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">ceci est la quatrieme colonne</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+<!-- Section 4 : 8 tableaux sur la même ligne -->
+ <!--je cree une 4eme section en utilisant la balise div et la class container et row pour definir la ranger de colonne-->
+<div class="container">
+    <div class="row">
+      <!--col-md- definissent ici sert de ciblage pour donner une largeur egal au colonne-->
+      <style>.col-md-1-5{ width: 12.5%;}</style>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">1 colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">2 colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">3 colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">4 colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">5 colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">6 colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">7 colonne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-1-5">
+        <table class="table table-primary">
+          <tr>
+            <td style="color: #0099ff">8 colonne</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
